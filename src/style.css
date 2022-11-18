@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sans {
+        @apply font-sans;
+    }
+
+    .btn {
+        @apply font-semibold text-sm text-white tracking-[0.01em] bg-[#0876DD] rounded-[6px];
+    }
+
+    .boxp {
+        @apply font-normal text-lg text-center tracking-[0.01em] text-[#374151];
+    }
+
+    .hero-box-title h1 {
+        @apply font-semibold text-[64px] leading-[80px] tracking-[0.01em] text-[#111827];
+    }
+}

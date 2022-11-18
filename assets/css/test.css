@@ -1,0 +1,324 @@
+.container {
+    width: 1216px;
+    /* px-112px */
+}
+
+button {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* White */
+    color: #FFFFFF;
+
+}
+
+.box-title h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+
+    /* or 125% */
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/900 */
+    color: #111827;
+
+}
+
+.box-title p {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 156% */
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/700 */
+    color: #374151;
+}
+
+.box-title button {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* White */
+    color: #FFFFFF;
+}
+
+
+.box-title1 h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+
+    /* identical to box height, or 129% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/900 */
+    color: #111827;
+
+}
+
+.box-title1 p {
+    /* sama seperti box1 */
+}
+
+.main img button {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/900 */
+    color: #111827;
+}
+
+.feature card h3 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/900 */
+    color: #111827;
+}
+
+.feature card p {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/700 */
+    color: #374151;
+
+}
+
+.box-title2 h1 {
+    /* sama seperti box1 */
+}
+
+.box-title2 p {
+    /* sama seperti box1 */
+}
+
+.footer h1 {
+    /* Display lg/SemiBold */
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+
+    /* identical to box height, or 125% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* White */
+    color: #FFFFFF;
+
+}
+
+.footer p {
+    /* sama seperti p biasa */
+    color: #FFFFFF;
+}
+
+.footer bawah sendiri {
+    /* Body sm / Medium */
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    text-align: right;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    color: #9CA3AF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 1216px;
+    /* px-112px */
+}
+
+
+@media (min-width: 375px) {
+    .container {
+        width: calc(100% - 20px);
+        /* px-112px */
+    }
+}
+
+
+/* 
+@media (max-width: 375px) {
+    .container {
+        width: 325px;
+    }
+} */
+
+button {
+    font-family: 'General Sans';
+    font-style: normal;
+
+}
+
+.box-title p {
+    font-family: 'General Sans';
+    font-style: normal;
+}
+
+.box-title button {}
+
+.box-title h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+
+}
+
+#main .box-title h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+
+    /* identical to box height, or 129% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* Neutral/900 */
+    color: #111827;
+
+}
+
+#main .button button {
+    font-weight: 500;
+    background-color: white;
+    color: #111827;
+}
+
+#footer .box-title h1 {
+    /* Display lg/SemiBold */
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+
+    /* identical to box height, or 125% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga'off;
+
+    /* White */
+    color: #FFFFFF;
+
+}
+
+#footer p {
+    /* sama seperti p biasa */
+    color: #FFFFFF;
+}
+
+#footer .copyright p {
+    /* Body sm / Medium */
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    text-align: right;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'liga'off;
+
+    color: #9CA3AF;
+
+}

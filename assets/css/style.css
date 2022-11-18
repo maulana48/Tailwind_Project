@@ -1,0 +1,49 @@
+.container {
+    width: 1216px;
+    /* px-112px */
+}
+
+
+@media (min-width: 375px) {
+    .container {
+        width: calc(100% - 40px);
+        /* px-40px */
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: calc(100% - 80px);
+        /* px-80px */
+    }
+}
+
+
+button {
+    font-family: 'General Sans';
+    font-style: normal;
+
+}
+
+.box-title p {
+    font-family: 'General Sans';
+    font-style: normal;
+}
+
+.box-title button {}
+
+.box-title h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+
+}
+
+#hero .cards img {
+    max-width: 29%;
+}
+
+
+#main .button button {
+    font-weight: 500;
+    color: #111827;
+}
