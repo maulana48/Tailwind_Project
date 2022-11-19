@@ -4,7 +4,7 @@
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 300px) {
     .container {
         width: calc(100% - 40px);
         /* px-40px */
@@ -17,7 +17,6 @@
         /* px-80px */
     }
 }
-
 
 button {
     font-family: 'General Sans';

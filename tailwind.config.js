@@ -8,13 +8,13 @@ module.exports = {
       container: {
         center: true,
         screens: {
-          sm: '375px',
+          sm: '300px',
           md: '768px',
           xl: '1216px',
         },
       },
       screens: {
-        sm: '375px',
+        sm: '300px',
         md: '768px',
         xl: '1440px',
       },
