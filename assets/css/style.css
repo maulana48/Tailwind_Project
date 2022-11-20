@@ -7,6 +7,7 @@
 @media (min-width: 300px) {
     .container {
         width: calc(100% - 40px);
+        max-width: 100%;
         /* px-40px */
     }
 }
@@ -37,8 +38,9 @@ button {
 
 }
 
-#hero .cards img {
+#hero .cards .card {
     max-width: 29%;
+    box-shadow: 2px 1px 5px black;
 }
 
 
