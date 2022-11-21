@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section id="navbar">
+    <section id="navbar" class="relative z-30">
         <div class="container flex sm:py-5 sm:items-center sm:mb-12 justify-between">
             <div class="logo flex items-baseline gap-[9px]">
                 <img src="./assets/img/header/Logomark.png" alt="" class="sm:max-h-[28px]">
@@ -26,8 +26,8 @@
         </div>
     </section>
 
-    <section id="hero" class="">
-        <div class="container sm:mb-[88px] lg:mb-0 lg:flex lg:gap-8 items-center overflow-x-hidden">
+    <section id="hero" class="relative z-10">
+        <div class="container sm:mb-[88px] lg:mb-0 lg:flex lg:gap-8 items-center">
             <div class="box-title sm:mb-24 md:w-[80%] lg:max-w-[48%]">
                 <h1 class="sm:font-semibold sm:text-4xl text-[64px] leading-[80px] text-[#111827] mb-4">Event
                     Registration Reimagined</h1>
@@ -39,8 +39,8 @@
             </div>
             <div class="relative lg:w-[49%]">
                 <img src="./assets/img/hero/Ellipse.png" alt=""
-                    class="absolute sm:-top-[70px] sm:left-[65px] md:-top-[25%] md:left-[25%] ">
-                <div class="cards flex flex-col flex-wrap sm:h-[370px] sm:gap-[14px] md:h-[730px] lg:h-[750px]
+                    class="absolute sm:-top-[70px] sm:left-[65px] md:-top-[25%] md:left-[25%] -z-[10]">
+                <div class="cards flex flex-col flex-wrap sm:h-[390px] sm:gap-[14px] md:h-[730px] lg:h-[750px]
                     md:gap-[18px] lg:gap-[25px] relative">
                     <div class="card lg:max-w-[192px] md:max-w-[202px] lg:mt-6 md:mt-6 mt-[14px] rounded-xl overflow-hidden
                         bg-white">
@@ -73,7 +73,8 @@
                             <img src="./assets/img/hero/card2/Group 4.png" alt="" class="md:max-w-[100%] max-w-[75px]">
                         </div>
                     </div>
-                    <div class="card lg:max-w-[192px] rounded-xl overflow-hidden flex flex-col items-center bg-white">
+                    <div
+                        class="card lg:max-w-[192px] mt-1 rounded-xl overflow-hidden flex flex-col items-center bg-white">
                         <div
                             class="card-header lg:pt-6 md:pt-6 pt-3 lg:mb-[17.78px] md:mb-[17.78px] mb-[10px] md:max-w-[100%] max-w-[45px]">
                             <img src="./assets/img/hero/card1/Ellipse 20.png" alt="">
@@ -91,16 +92,16 @@
                         </div>
                     </div>
                     <div
-                        class="card lg:max-w-[192px] lg:p-[10px] md:p-[25px] p-2 md:w-full rounded-xl overflow-hidden bg-white">
+                        class="card lg:max-w-[192px] lg:p-[10px] md:p-[25px] p-[7.64px] md:w-full rounded-xl overflow-hidden bg-white">
                         <div class="card-item flex justify-center items-center lg:gap-[17px] md:gap-[17px] gap-[9px]">
-                            <div class="text-[4px] text-left">
+                            <div class="md:text-[9px] text-[4px] text-left">
                                 <h5 class="lg:mb-[8.73px] md:mb-[8.73px] mb-1">PRE-REGISTERED</h5>
                                 <span class="lg:text-[24px] md:text-[24px] text-[12px] lg:font-semibold
                                     md:font-semibold">1203</span>
                             </div>
                             <img src="./assets/img/hero/card3/Line 11 (Stroke).png" alt=""
                                 class="md:max-h-[100%] max-h-9">
-                            <div class="text-[4px] text-left">
+                            <div class="md:text-[9px] text-[4px] text-left">
                                 <h5 class="lg:mb-[8.73px] md:mb-[8.73px] mb-1">ONSPOT</h5>
                                 <span
                                     class="lg:text-[24px] md:text-[24px] text-[12px] lg:font-semibold md:font-semibold">112</span>
@@ -108,10 +109,9 @@
                         </div>
                     </div>
                     <div class="card lg:max-w-[192px] rounded-xl overflow-hidden bg-white">
-                        <div class="card-items lg:text-[11px] md:text-[11px] text-[4px] flex flex-col lg:pt-[25px]
+                        <div class="card-items lg:text-[8px] md:text-[11px] text-[4px] flex flex-col lg:pt-[25px]
                             lg:px-[16.7px] md:pt-[26px] md:px-[17.6px] pt-[14px] px-[10px]">
-                            <div class="card-header flex justify-between items-center lg:gap-[42.19px] md:gap-11
-                                gap-[23px] lg:mb-[23.42px] md:mb-6 mb-3">
+                            <div class="card-header flex justify-between items-center lg:mb-[23.42px] md:mb-6 mb-3">
                                 <span class="">EARLY BIRD</span>
                                 <img src="./assets/img/hero/card4/10,032.png" alt=""
                                     class="md:max-w-[100%] max-w-[31px]">
@@ -143,18 +143,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-[#5E8553] lg:py-[18.43px] lg:px-0 md:py-[19.5px] md:px-[53px] py-[10px]
-                            px-[28px] text-white text-center lg:text-[100%] md:text-[100%] text-[5px]">
+                        <div class="bg-[#5E8553] lg:px-0 md:py-[12px] md:px-[53px] py-[10px]
+                            px-[28px] text-white text-center lg:text-[12px] md:text-[100%] text-[5px]">
                             Book Tickets
                         </div>
                     </div>
                     <div class="card max-w-[192px] flex flex-col lg:gap-[21px] md:gap-[21px] gap-3 lg:py-6
                         md:py-[22px] py-3 lg:px-[37px] md:px-[40px] px-[21px] lg:mt-[76px] md:mt-[76px]
                         mt-[43.5px] items-center rounded-xl overflow-hidden bg-white">
-                        <h5 class="lg:text-[8px] md:text-xs text-[4px]">ATTENDEES</h5>
+                        <h5 class="lg:text-[12px] md:text-xs text-[4px]">ATTENDEES</h5>
                         <img src="./assets/img/hero/card6/Group 8.png" alt="">
                         <div class="flex items-center lg:gap-[10.52px] md:gap-[10.52px] gap-[6px]">
-                            <h5 class="lg:text-[6px] md:text-xs text-[4px]">CHECKED IN</h5>
+                            <h5 class="lg:text-[9px] md:text-xs text-[4px]">CHECKED IN</h5>
                             <span
                                 class="lg:text-[13px] md:text-base text-[10px] lg:font-bold md:font-bold font-bold">84</span>
                         </div>
@@ -162,15 +162,15 @@
                     <div
                         class="card max-w-[192px] flex flex-col lg:gap-[21px] md:gap-[21px] gap-3 lg:py-6
                         md:py-[22px] py-3 lg:px-[37px] md:px-[40px] px-[21px] items-center rounded-xl overflow-hidden bg-white">
-                        <h5 class="lg:text-[8px] md:text-xs text-[4px]">Ticket Sales</h5>
+                        <h5 class="lg:text-[12px] md:text-xs text-[4px]">Ticket Sales</h5>
                         <img src="./assets/img/hero/card5/Group 6.png" alt="">
                         <div class="flex items-center lg:gap-[10.52px] md:gap-[10.52px] gap-[6px]">
-                            <h5 class="lg:text-[6px] md:text-xs text-[4px]">SOLD</h5>
+                            <h5 class="lg:text-[9px] md:text-xs text-[4px]">SOLD</h5>
                             <span
                                 class="lg:text-[13px] md:text-base text-[10px] lg:font-bold md:font-bold font-bold">84</span>
                         </div>
                         <div class="flex items-center lg:gap-[10.52px] md:gap-[10.52px] gap-[6px]">
-                            <h5 class="lg:text-[6px] md:text-xs text-[4px]">AVAILABLE</h5>
+                            <h5 class="lg:text-[9px] md:text-xs text-[4px]">AVAILABLE</h5>
                             <span class="lg:text-[13px] md:text-base text-[10px] lg:font-bold md:font-bold
                                 font-bold">76</span>
                         </div>
@@ -184,32 +184,31 @@
     <section id="main">
         <div class="container flex flex-col justify-center items-center mb-12 md:pt-24">
             <div class="box-title mb-12">
-                <h1
-                    class="sm:font-semibold sm:text-4xl lg:text-[56px] lg:leading-[72px] text-center tracking-[0.01em] mb-2">
+                <h1 class="font-semibold md:font-semibold text-4xl md:text-4xl lg:text-[56px] lg:leading-[72px] text-center
+                    tracking-[0.01em] mb-2">
                     All-in-one Event Platform
                 </h1>
-                <p class="boxp sm:font-normal text-base">Deliver an exceptional event experience</p>
+                <p class="boxp font-normal md:font-normal text-base">Deliver an exceptional event experience</p>
             </div>
-            <img src="./assets/img/video-thumbnail.png" alt=""
-                class="sm:max-w-[335px] md:max-w-[688px] lg:max-w-[768px]">
-            <div class="button sm:p-3 p-4 bg-white sm:shadow-lg rounded-[100px] flex gap-3 items-center sm:max-w-[205px]
-                lg:max-w-[237px] lg:-mt[28px] max-w-[237px] sm:-mt-[22px] -mt-7">
-                <img src="./assets/img/play-icon.png" alt="" class="sm:max-h-[20px] max-h-[24px]">
-                <button class="btn sm:text-sm sm:bg-white border-0">See it in action (2 min)</button>
+            <img src="./assets/img/video-thumbnail.png" alt="" class="max-w-[335px] md:max-w-[688px] lg:max-w-[768px]">
+            <div class="button py-3 px-4 md:py-4 lg:py-4 lg:px-5 bg-white shadow-lg md:shadow-lg rounded-[100px] flex gap-3 items-center max-w-[205px] md:max-w-[205px]
+                lg:max-w-[237px] md:-mt-7 -mt-[22px]">
+                <img src="./assets/img/play-icon.png" alt="" class="max-h-[20px] md:max-h-[24px]">
+                <button class="btn text-xs lg:text-sm bg-white border-0">See it in action (2 min)</button>
             </div>
         </div>
     </section>
 
     <section id="features">
         <div class="container mb-12 lg:mb-24">
-            <div class="cards flex sm:flex-col sm:gap-3 md:flex-row md:flex-wrap md:gap-8 md:justify-center">
+            <div class="cards flex flex-col gap-3 md:flex-row md:flex-wrap md:gap-8 md:justify-center">
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon.png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -219,12 +218,12 @@
                     </div>
                 </div>
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon(1).png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -234,12 +233,12 @@
                     </div>
                 </div>
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon(2).png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -249,12 +248,12 @@
                     </div>
                 </div>
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon(3).png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -264,12 +263,12 @@
                     </div>
                 </div>
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon(4).png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -279,12 +278,12 @@
                     </div>
                 </div>
                 <div
-                    class="card flex justify-between sm:gap-4 sm:items-center sm:py-6 md:flex-col md:gp-6 md:max-w-[45%] md:text-center lg:max-w-[31%]">
+                    class="card flex justify-start gap-4 items-center py-6 md:flex-col md:gap-6 md:max-w-[45%] md:text-center lg:max-w-[24%]">
                     <div
-                        class="icon sm:p-2 md:p-3 bg-[#a5d7e9] rounded-full sm:max-h-14 sm:max-w-14 md:w-max-[88px] md:max-h-[88px]">
-                        <div class="border sm:p-[9px] md:p-5 bg-white rounded-full">
+                        class="icon sm:p-[7.64px] md:p-3 bg-[#a5d7e9] rounded-full max-h-[56px] max-w-[56px] md:max-w-[88px] md:max-h-[88px]">
+                        <div class="p-[12.73px] md:p-5 bg-white rounded-full">
                             <img src="./assets/img/features/Base feature icon(5).png" alt=""
-                                class="sm:min-h-[50%] sm:min-w-[50%]">
+                                class="max-w-[15.27px] md:max-w-[100%]">
                         </div>
                     </div>
                     <div class="card-item">
@@ -304,7 +303,7 @@
             </div> -->
 
             <div class="box-title sm:text-center sm:mb-10 sm:pt-12 md:max-w-[85%] lg:max-w-[48%]">
-                <img src="./assets/img/items/bg-circle.png" alt="" class="sm:absolute sm:top-0  left-0">
+                <img src="./assets/img/items/bg-circle.png" alt="" class="sm:absolute sm:top-0 left-0">
                 <h1
                     class="sm:font-semibold sm:text-center sm:text-4xl tracking-[0.01em] md:text-5xl text-[#111827] sm:mb-4 relative">
                     Integrate with your
@@ -313,49 +312,35 @@
                     marketing tools
                 </p>
             </div>
-            <div class="tools flex sm:flex-wrap sm:gap-8 sm:items-center md:gap-[72px] md:max-w-[85%] lg:max-w-[48%]
+            <div class="tools relative flex sm:flex-wrap sm:gap-8 sm:items-center md:gap-[72px] md:max-w-[85%] lg:max-w-[48%]
                 justify-center sm:mb-6 z-10">
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Frame.png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Frame.png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Frame(1).png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Frame(1).png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Frame(2).png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Frame(2).png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Vector.png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Vector.png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Vector(1).png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Vector(1).png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/google analytics.png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/google analytics.png" alt="" class="tools_icon">
                 </div>
-                <div
-                    class="icon p-[14px] md:p-5 lg:p-5 bg-white sm:object-contain sm:inline-block sm:rounded-full sm:shadow-md">
-                    <img src="./assets/img/items/Frame(3).png" alt=""
-                        class="max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px]">
+                <div class="tools_icons">
+                    <img src="./assets/img/items/Frame(3).png" alt="" class="tools_icon">
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="footer" class="bg-[#111827]">
+    <section id="footer" class="bg-[#111827] relative">
         <div class="container pt-16 pb-10">
             <div class="box-title flex flex-col justify-center sm:py-0 sm:px-0 lg:py-12 lg:px-52 mb-16">
                 <h1 class="mb-4 sm:font-semibold sm:text-3xl md:text-4xl lg:text-5xl text-white text-center">Create your

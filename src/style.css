@@ -18,4 +18,12 @@
     .hero-box-title h1 {
         @apply font-semibold text-[64px] leading-[80px] tracking-[0.01em] text-[#111827];
     }
+
+    .tools_icons {
+        @apply p-[14px] bg-white md:p-[20px] object-contain inline-block rounded-full shadow-lg;
+    }
+
+    .tools_icon {
+        @apply max-w-[28px] max-h-[28px] md:max-w-[40px] md:max-h-[40px] lg:max-w-[40px] lg:max-h-[40px];
+    }
 }
